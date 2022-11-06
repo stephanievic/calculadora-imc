@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="description" content="Calculadora de IMC, criada como projeto de estudo.">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsive.css">
+    <link rel="shortcut icon" href="style/Martz90-Circle-Calculator.ico" type="image/x-icon">
+    <title>Calculadora de IMC</title>
+</head>
+
+<body>
+    <div id="container">
+            <div class="info">
+                <h1>O que é IMC?</h1>
+                <p class="texto">O <strong>IMC (índice de massa corporal)</strong> é uma medida internacional usada para calcular se uma pessoa está no peso ideal, de acordo com a sua altura.</p>
+                <img src="style/FAQ.png" alt="Ilustração de perguntas frequentes" height="45%" width="45%">
+            </div>
+            
+            <div class="hide" id="resultado">
+               
+            </div>
+
+            <div class="calculadora">
+                <p class="texto2">Informe seu peso e altura abaixo e obtenha o seu IMC!</p>
+                <form action="">
+                    <input type="number" name="altura" id="altura" step="0.1" min="1" placeholder="Altura (Ex.: 1,60)" required>
+                    <input type="number" name="peso" id="peso" min="1" placeholder="Peso (Ex.: 70)" required>
+                    <input type="button" id="btn" value="Calcular">
+                </form> 
+            </div>
+
+        </div>
+
+        <script src="script/script.js"></script>
+</body>
+</html>
