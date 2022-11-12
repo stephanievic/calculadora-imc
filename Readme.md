@@ -21,3 +21,7 @@
 ### Visualização
 
 👩🏽‍💻  <a href="https://stephanievic.github.io/calculadora-imc/">Link do projeto</a>
+
+##
+
+🖼 <a href="https://illustrationkit.com">Ilustração</a>
